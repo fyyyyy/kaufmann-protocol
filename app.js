@@ -5,6 +5,7 @@ new Vue({
   },
   methods: {
     select(med) {
+        console.log(med);
       med.selected = !med.selected
       if (med.selected) this.selected.push(med);
       this.selected = this.selected.filter(m => m.selected)
