@@ -5,10 +5,10 @@
 <div id="app">
   <div class="sidebar pure-u-1 pure-u-md-1-4">
     <div class="header">
-      <h1 class="brand-title">Kaufmann Protocol</a> Kalkulator</h1>
+      <h1 class="brand-title">Kaufmann Kalkulator</h1>
       <h3 class="brand-title">
         Version 0.2
-        <a href="https://www.kaufmannprotocol.com/" target="_blank">Vist Website</a>
+        <a href="https://www.kaufmannprotocol.com/" target="_blank">Vist Kaufmann Protocol</a>
       </h3>
     </div>
   </div>
