@@ -1,0 +1,94 @@
+$dark: #353538;
+$darker: #151518;
+$bright: #FFFCF2;
+$red: #FF7F50;
+$green: #35DE9D;
+$grey: #cbcbcb;
+
+div#app {
+  font-family: sans-serif;
+  color: $dark;
+  background-color: $bright;
+}
+
+.active {
+  background-color: $dark;
+  color: $bright;
+}
+
+.brand-title {
+  padding-left: 0.5em;
+}
+
+.low {
+  color: $red;
+}
+
+.high {
+  color: $green;
+}
+
+td {
+  min-width: 1.5em;
+  max-width: 1.5em;
+  text-align: center;
+}
+
+.pure-table tr th {
+  max-width: 1.5em;
+  min-width: 1.5em;
+  font-size: 70%;
+  font-weight: normal;
+  padding: 0;
+  margin: 0;
+  border-bottom: 1.5px solid $grey;
+}
+
+table {
+  margin: 1em;
+}
+
+.pure-table td.dose {
+  min-width: 400px;
+}
+
+.pure-table .side {
+  min-width: 400px;
+}
+
+tr {
+  height: 1.5em;
+}
+
+button {
+  width: 100%;
+  padding: 0.8em;
+}
+
+button.pure-button-small {
+  background-color: $bright;
+}
+
+button.pure-button-primary {
+  background-color: $green;
+  color: $darker;
+}
+
+
+tr.score {
+  border-top: 1px solid $bright;
+  background-color: $darker;
+  td {
+    font-size: 130%;
+    margin: 0;
+    padding: 5px 2px;
+  }
+}
+
+.sidebar {
+}
+
+.results {
+  background-color: $dark;
+  color: $bright;
+}

@@ -1,0 +1,84 @@
+      div#app {
+          font-family: sans-serif;
+          color: #353538;
+          background-color: #FFFCF2;
+      }
+
+      .active {
+          background-color: #353538;
+          color: #FFFCF2;
+      }
+
+      .brand-title {
+          padding-left: 0.5em;
+      }
+
+      .low {
+          color: #FF7F50;
+      }
+
+      .high {
+          color: #35DE9D;
+      }
+
+      td {
+          min-width: 1.5em;
+          max-width: 1.5em;
+          text-align: center;
+      }
+
+      .pure-table tr th {
+          max-width: 1.5em;
+          min-width: 1.5em;
+          font-size: 70%;
+          font-weight: normal;
+          padding: 0;
+          margin: 0;
+          border-bottom: 1.5px solid #cbcbcb;
+      }
+
+      table {
+          margin: 1em;
+      }
+
+      .pure-table td.dose {
+          min-width: 400px;
+      }
+
+      .pure-table .side {
+          min-width: 400px;
+      }
+
+      tr {
+          height: 1.5em;
+      }
+
+      button {
+          width: 100%;
+          padding: 0.8em;
+      }
+
+      button.pure-button-small {
+          background-color: #FFFCF2;
+      }
+
+      button.pure-button-primary {
+          background-color: #35DE9D;
+          color: #151518;
+      }
+
+      tr.score {
+          border-top: 1px solid #FFFCF2;
+          background-color: #151518;
+      }
+
+      tr.score td {
+          font-size: 130%;
+          margin: 0;
+          padding: 5px 2px;
+      }
+
+      .results {
+          background-color: #353538;
+          color: #FFFCF2;
+      }
